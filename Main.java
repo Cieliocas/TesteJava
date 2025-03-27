@@ -1,6 +1,5 @@
 public class Main {
-    int minhaIdade = 25;
-    String meuNome = "Ciélio";
-    var nomeVariavel = "Cielio";
-    // tipo nomeVariavel = valor;
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
 }
