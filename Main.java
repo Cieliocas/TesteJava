@@ -17,10 +17,13 @@ public class Main {
         double d = 1.0;
         char c = 'a';
         boolean bool = true;
+
         String str = "Hello World";
 
-        if (b == 100) {
+        if (str.isBlank()) {
             System.out.println("verdadeiro");
+        } else if (str == "Hello World") {
+            System.out.println("eh hello world");
         } else {
             System.out.println("Falso");
         }
