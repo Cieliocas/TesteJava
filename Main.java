@@ -18,5 +18,11 @@ public class Main {
         char c = 'a';
         boolean bool = true;
         String str = "Hello World";
+
+        if (b == 100) {
+            System.out.println("verdadeiro");
+        } else {
+            System.out.println("Falso");
+        }
     }
 }
