@@ -18,6 +18,8 @@ public class Main {
         char c = 'a';
         boolean bool = true;
 
+        int colecaoDeInteiros[] = {1, 2, 3, 4, 5};
+
         String str = "Hello World";
 
         if (str.isBlank()) {
@@ -27,5 +29,6 @@ public class Main {
         } else {
             System.out.println("Falso");
         }
+        System.out.println(colecaoDeInteiros[0]);
     }
 }
