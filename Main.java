@@ -30,5 +30,6 @@ public class Main {
             System.out.println("Falso");
         }
         System.out.println(colecaoDeInteiros[0]);
+        System.out.println(colecaoDeInteiros[1]);
     }
 }
